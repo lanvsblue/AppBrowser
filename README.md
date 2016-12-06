@@ -78,7 +78,10 @@ NSString *applicationName = [application valueForKeyPath:APP_NAME_KEY_PATH] ?:
 * INFO按钮用来解析并显示出对应的LSApplicationProxy类
 
 #### 树形展示LSApplicationProxy类
-通过算法，将LSApplicationProxy类，转换成了字典。转换规则是：属性名为key，属性值为value，如果value是一个可解析的类（除了NSString,NSNumber...等等）或者是个数组或字典，则继续递归解析。并且会找到superClass的属性并解析，superClass如果也符合解析原则，也会进入递归解析。
+通过算法，将LSApplicationProxy类，转换成了字典。
+
+转换规则是：属性名为key，属性值为value，如果value是一个可解析的类（除了NSString,NSNumber...等等）或者是个数组或字典，则继续递归解析。
+并且会找到superClass的属性并解析，superClass如果也符合解析原则，也会进入递归解析。
 
 具体算法可以查看 LANAppHelper.m文件中的
 ```objc 
