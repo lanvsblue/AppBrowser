@@ -44,7 +44,7 @@
 
 + (id)iconForApplication:(id)application {
     return [UIImage invoke:@"_applicationIconImageForBundleIdentifier:format:scale:"
-                      args:[application bundleIdentifier],@"",@3,nil];
+                      args:[application bundleIdentifier],@"",@([UIScreen mainScreen].scale),nil];
 }
 
 + (id)vendorNameForApplication:(id)application {
