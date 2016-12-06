@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A199041E0466BA5F9BB1F11 /* LANAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A19967D98091DBB5C8E1D46 /* LANAppHelper.m */; };
+		1A1990D3CA98281F7798BAC2 /* UIView+LAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A19989C3C9A63560335D2F7 /* UIView+LAN.m */; };
+		1A19913A21A77F3698BA5F22 /* NSArray+LAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A199660E6CFB68AE2207409 /* NSArray+LAN.m */; };
+		1A19913DBC063139E455FB1B /* LANProListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A199577A796360041C4F1F3 /* LANProListCell.m */; };
+		1A1991AFE54A0FC9CD0473DD /* NSDictionary+LAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1997EB459C56D2C64D0018 /* NSDictionary+LAN.m */; };
+		1A19920A9D1DEA3ECAF17675 /* LANAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A19965D34B7914B70421EC7 /* LANAppViewController.m */; };
+		1A199231ED464FE2CBF0BB1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A199F9CD9029FC50A3D78D1 /* AppDelegate.m */; };
+		1A1992BE7D796198EBC175C1 /* LANAppListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1994DDC19CA7384C38B140 /* LANAppListCell.m */; };
+		1A19937BC28F8488AE04D9DF /* LANAppListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A199ABBB88F0D9A2797316F /* LANAppListViewController.m */; };
+		1A1994D0A04E9C345A89F2F9 /* RuntimeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1992DE59F4730B2B128E84 /* RuntimeInvoker.m */; };
+		1A1996B5FF33C7D3AF28939E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A199CE6A084BA342C2CF69B /* Info.plist */; };
+		1A199771F6938A6F6D1FE478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A199EF5E749068E073330A0 /* LaunchScreen.storyboard */; };
+		1A1997C74B30FDB729B998D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1999B9E8A8D4DC813E38C8 /* main.m */; };
+		1A1997C9B7D6A71B93067E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1992578298797C6C033A18 /* Assets.xcassets */; };
+		1A199B633E5859BFA2F9840F /* LANPathDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1991B514F189D87CFE5C47 /* LANPathDisplayView.m */; };
+		1A199D4C0656B11F435557BF /* LANProListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A199E76C44E5E0A79320D94 /* LANProListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A199070418BA7768EFF524C /* AppBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1990F733EAD68BE39C7606 /* LANAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LANAppViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1A1991B514F189D87CFE5C47 /* LANPathDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LANPathDisplayView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1A1992578298797C6C033A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A1992DE59F4730B2B128E84 /* RuntimeInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeInvoker.m; sourceTree = "<group>"; };
+		1A19947893E0B5F6EE991C44 /* LANPathDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LANPathDisplayView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1A1994965A43007728F16861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A1994DDC19CA7384C38B140 /* LANAppListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANAppListCell.m; sourceTree = "<group>"; };
+		1A199577A796360041C4F1F3 /* LANProListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LANProListCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1A19959F2A916B842D7E2CF7 /* LANProListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LANProListCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1A19965D34B7914B70421EC7 /* LANAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LANAppViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1A199660E6CFB68AE2207409 /* NSArray+LAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LAN.m"; sourceTree = "<group>"; };
+		1A19967D98091DBB5C8E1D46 /* LANAppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANAppHelper.m; sourceTree = "<group>"; };
+		1A19972B4AFD6BBBAE33FA37 /* LANGlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LANGlobalDefine.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1A1997478E74D7F61A16DC70 /* LANAppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANAppHelper.h; sourceTree = "<group>"; };
+		1A1997EB459C56D2C64D0018 /* NSDictionary+LAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LAN.m"; sourceTree = "<group>"; };
+		1A1998933E55A45AA0CAAF17 /* LANAppListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANAppListViewController.h; sourceTree = "<group>"; };
+		1A19989C3C9A63560335D2F7 /* UIView+LAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LAN.m"; sourceTree = "<group>"; };
+		1A1998AEA713F2260D109C6C /* NSDictionary+LAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LAN.h"; sourceTree = "<group>"; };
+		1A1999B9E8A8D4DC813E38C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1A199ABBB88F0D9A2797316F /* LANAppListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANAppListViewController.m; sourceTree = "<group>"; };
+		1A199B075D8374A60D616BBA /* LANProListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LANProListViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1A199B95CA3359E5E928B5A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1A199C1950487A700143D855 /* LANAppListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANAppListCell.h; sourceTree = "<group>"; };
+		1A199CE6A084BA342C2CF69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A199D3A36FDA81D6E83E757 /* RuntimeInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeInvoker.h; sourceTree = "<group>"; };
+		1A199D735C4AC99AF7291BB3 /* NSArray+LAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LAN.h"; sourceTree = "<group>"; };
+		1A199E76C44E5E0A79320D94 /* LANProListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LANProListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1A199F8538322DC9F6BB3C74 /* UIView+LAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LAN.h"; sourceTree = "<group>"; };
+		1A199F9CD9029FC50A3D78D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3F4BE5E31DE6E4A400A93B5A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A199E7B40982D21C790F4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1994AAC5272E8BD9F27C4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A1994DDC19CA7384C38B140 /* LANAppListCell.m */,
+				1A199C1950487A700143D855 /* LANAppListCell.h */,
+				1A19959F2A916B842D7E2CF7 /* LANProListCell.h */,
+				1A199577A796360041C4F1F3 /* LANProListCell.m */,
+				1A19947893E0B5F6EE991C44 /* LANPathDisplayView.h */,
+				1A1991B514F189D87CFE5C47 /* LANPathDisplayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A1995E0721C4EE08AFF6EF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A1998933E55A45AA0CAAF17 /* LANAppListViewController.h */,
+				1A199ABBB88F0D9A2797316F /* LANAppListViewController.m */,
+				1A1990F733EAD68BE39C7606 /* LANAppViewController.h */,
+				1A19965D34B7914B70421EC7 /* LANAppViewController.m */,
+				1A199B075D8374A60D616BBA /* LANProListViewController.h */,
+				1A199E76C44E5E0A79320D94 /* LANProListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A1996DC38201052FBB6A32F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1A199F8538322DC9F6BB3C74 /* UIView+LAN.h */,
+				1A19989C3C9A63560335D2F7 /* UIView+LAN.m */,
+				1A199660E6CFB68AE2207409 /* NSArray+LAN.m */,
+				1A199D735C4AC99AF7291BB3 /* NSArray+LAN.h */,
+				1A1997EB459C56D2C64D0018 /* NSDictionary+LAN.m */,
+				1A1998AEA713F2260D109C6C /* NSDictionary+LAN.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1A1997F53AF87C2858BE40A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1A1996DC38201052FBB6A32F /* Category */,
+				1A199D3A36FDA81D6E83E757 /* RuntimeInvoker.h */,
+				1A1992DE59F4730B2B128E84 /* RuntimeInvoker.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1A1999410672D29B8FEC961F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A199070418BA7768EFF524C /* AppBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1999BB55A35AAF4BFA9264 /* AppBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1A199CE6A084BA342C2CF69B /* Info.plist */,
+				1A1992578298797C6C033A18 /* Assets.xcassets */,
+				1A199EF5E749068E073330A0 /* LaunchScreen.storyboard */,
+				1A199FE804FA083FADEC3983 /* Supporting Files */,
+				1A199B95CA3359E5E928B5A9 /* AppDelegate.h */,
+				1A199F9CD9029FC50A3D78D1 /* AppDelegate.m */,
+				1A1995E0721C4EE08AFF6EF1 /* Controller */,
+				1A1997F53AF87C2858BE40A7 /* Common */,
+				1A199D78CC9E036892E450AA /* Model */,
+				1A1994AAC5272E8BD9F27C4F /* View */,
+			);
+			path = AppBrowser;
+			sourceTree = "<group>";
+		};
+		1A199B0251663A8FA17404C3 = {
+			isa = PBXGroup;
+			children = (
+				3F4BE5E31DE6E4A400A93B5A /* PrefixHeader.pch */,
+				1A1999410672D29B8FEC961F /* Products */,
+				1A1999BB55A35AAF4BFA9264 /* AppBrowser */,
+				1A19972B4AFD6BBBAE33FA37 /* LANGlobalDefine.h */,
+			);
+			sourceTree = "<group>";
+		};
+		1A199D78CC9E036892E450AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A19967D98091DBB5C8E1D46 /* LANAppHelper.m */,
+				1A1997478E74D7F61A16DC70 /* LANAppHelper.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A199FE804FA083FADEC3983 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A1999B9E8A8D4DC813E38C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A199ABA0306E42DA9CC2EFA /* AppBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1998425D1B08BE3DC10E8B /* Build configuration list for PBXNativeTarget "AppBrowser" */;
+			buildPhases = (
+				1A1991C4D5037AA720D67B81 /* Sources */,
+				1A199E7B40982D21C790F4E0 /* Frameworks */,
+				1A1996F3029634F03EE89CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppBrowser;
+			productName = ApplicationManager;
+			productReference = 1A199070418BA7768EFF524C /* AppBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A199A8FE21D4DA332F0F482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LAN;
+				ORGANIZATIONNAME = lanvsblueCO.;
+			};
+			buildConfigurationList = 1A1999ECC1DE83EE7CC8A61F /* Build configuration list for PBXProject "AppBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A199B0251663A8FA17404C3;
+			productRefGroup = 1A1999410672D29B8FEC961F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A199ABA0306E42DA9CC2EFA /* AppBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1996F3029634F03EE89CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1996B5FF33C7D3AF28939E /* Info.plist in Resources */,
+				1A1997C9B7D6A71B93067E79 /* Assets.xcassets in Resources */,
+				1A199771F6938A6F6D1FE478 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1991C4D5037AA720D67B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1997C74B30FDB729B998D3 /* main.m in Sources */,
+				1A199231ED464FE2CBF0BB1E /* AppDelegate.m in Sources */,
+				1A19937BC28F8488AE04D9DF /* LANAppListViewController.m in Sources */,
+				1A1990D3CA98281F7798BAC2 /* UIView+LAN.m in Sources */,
+				1A199041E0466BA5F9BB1F11 /* LANAppHelper.m in Sources */,
+				1A1994D0A04E9C345A89F2F9 /* RuntimeInvoker.m in Sources */,
+				1A1992BE7D796198EBC175C1 /* LANAppListCell.m in Sources */,
+				1A19920A9D1DEA3ECAF17675 /* LANAppViewController.m in Sources */,
+				1A19913A21A77F3698BA5F22 /* NSArray+LAN.m in Sources */,
+				1A1991AFE54A0FC9CD0473DD /* NSDictionary+LAN.m in Sources */,
+				1A199D4C0656B11F435557BF /* LANProListViewController.m in Sources */,
+				1A19913DBC063139E455FB1B /* LANProListCell.m in Sources */,
+				1A199B633E5859BFA2F9840F /* LANPathDisplayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A199EF5E749068E073330A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1994965A43007728F16861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A19937A0CF58CBC2B2AB597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXJL78S842;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = AppBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanvsblue.AppBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1A199709F4C3D1D2449008A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXJL78S842;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = AppBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanvsblue.AppBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1A1998BEFADADFF82EA8605C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A199C3B61232BAACC376987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1998425D1B08BE3DC10E8B /* Build configuration list for PBXNativeTarget "AppBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A19937A0CF58CBC2B2AB597 /* Debug */,
+				1A199709F4C3D1D2449008A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1999ECC1DE83EE7CC8A61F /* Build configuration list for PBXProject "AppBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1998BEFADADFF82EA8605C /* Debug */,
+				1A199C3B61232BAACC376987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A199A8FE21D4DA332F0F482 /* Project object */;
+}
