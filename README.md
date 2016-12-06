@@ -49,7 +49,7 @@ NSString *applicationName = [application valueForKeyPath:APP_NAME_KEY_PATH] ?:
 ```
 应用列表界面展示：
 
-![应用列表](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/Installed%20app.png)
+![应用列表](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/Installed%20app%201.png)
 
 #### 应用运行时详情
 
@@ -72,7 +72,7 @@ NSString *applicationName = [application valueForKeyPath:APP_NAME_KEY_PATH] ?:
 ```
 应用运行时详情界面展示：
 
-![应用运行时详情](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/app%20info.png)
+![应用运行时详情](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/app%20info%201.png)
 
 * 右上角，从左往右第一个按钮用来打开应用；第二个按钮用来卸载这个应用
 * INFO按钮用来解析并显示出对应的LSApplicationProxy类
@@ -84,7 +84,7 @@ NSString *applicationName = [application valueForKeyPath:APP_NAME_KEY_PATH] ?:
 ```objc 
 +(NSDictionary *)infoForApplication:(id)application;
 ```
-![解析LSApplicationProxy类](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/LSApplicationProxy.png)
+![解析LSApplicationProxy类](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/LSApplicationProxy%201.png)
 
 ## 参考及引用
 * [iOS-Runtime-Headers](https://github.com/nst/iOS-Runtime-Headers)
