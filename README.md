@@ -89,6 +89,23 @@ NSString *applicationName = [application valueForKeyPath:APP_NAME_KEY_PATH] ?:
 ```
 ![解析LSApplicationProxy类](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/LSApplicationProxy%201.png)
 
+## 功能演示
+
+#### 已安装的应用列表
+![已安装的应用列表](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/installed%20app-squashed.gif)
+
+#### 应用详情页
+![应用详情页](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/app%20info-squashed.gif)
+
+#### 打开应用
+![打开应用](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/open%20app-squashed.gif)
+
+#### 卸载应用
+![卸载应用](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/uninstall%20app-squashed.gif)
+
+#### 应用属性列表
+![应用属性列表](http://o9gma3fh0.bkt.clouddn.com/2016/12/AppBrowser/LSApplicationProxy-squashed.gif)
+
 ## 参考及引用
 * [iOS-Runtime-Headers](https://github.com/nst/iOS-Runtime-Headers)
 * [Retriever](https://github.com/cyanzhong/Retriever)
