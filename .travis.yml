@@ -1,2 +1,2 @@
 language: objective-c
-script: xctool -project [AppBrowser] -scheme [AppBrowser] build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+script: xctool -project [AppBrowser.xcodeproj] -scheme [AppBrowser] build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
