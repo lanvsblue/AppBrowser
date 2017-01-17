@@ -1,5 +1,6 @@
 language: objective-c
-xcode_project: AppBrowser.xcodeproj
-xcode_scheme: AppBrowser
-script: xctool -project AppBrowser.xcodeproj -scheme AppBrowser build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
+osx_image: xcode8.0
+
+script: 
+    xctool -project AppBrowser.xcodeproj -scheme AppBrowser build -sdk iphonesimulator
