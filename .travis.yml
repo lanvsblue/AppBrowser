@@ -1,6 +1,0 @@
-language: objective-c
-
-osx_image: xcode8
-
-script: 
-    xctool -project AppBrowser.xcodeproj -scheme AppBrowser build -sdk iphonesimulator
