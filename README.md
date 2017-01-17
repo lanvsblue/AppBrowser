@@ -1,4 +1,6 @@
 # AppBrowser(Application属性查看器，不需要越狱！！！)
+[![Build Status](https://travis-ci.org/lanvsblue/AppBrowser.svg?branch=master)](https://travis-ci.org/lanvsblue/AppBrowser)
+
 不需要越狱，调用私有方法 --- 获取完整的已安装应用列表、打开和删除应用操作、应用运行时相关信息的查看。
 
 支持iOS10.X
