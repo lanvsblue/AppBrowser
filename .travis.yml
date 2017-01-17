@@ -1,3 +1,5 @@
 language: objective-c
-script:
-  - xcodebuild [DEFAULT_OPTIONS] CODE_SIGNING_REQUIRED=NO
+xcode_project: AppBrowser.xcodeproj
+xcode_scheme: AppBrowser
+script: xctool -project AppBrowser.xcodeproj -scheme AppBrowser build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
