@@ -4,6 +4,10 @@
 
 支持iOS10.X
 
+## 注意
+
+目前AppBrowser不支持iOS11应用查看, 由于iOS11目前还处在Beta版, 系统API还没有稳定下来。等到[Private Header](https://github.com/nst/iOS-Runtime-Headers)更新了iOS11版本,我也会进行更新。
+
 ## 功能
 - [x] 已安装的应用列表
 - [x] 应用的详情界面 (打开应用，删除应用，应用的相关信息展示)
